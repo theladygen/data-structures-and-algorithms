@@ -7,21 +7,21 @@ Write a function named `addOne` that takes an array of numbers, and returns a ne
 
 Use `forEach` to loop over the input array and work with each value.  Push the new value into a local array. Return the local array;
 ------------------------------------------------------------------------------------------------ */
-let arr = [1,2,3,4,5];
+// let arr = [1,2,3,4,5];
 
 const addOne = (arr) => {
   let newArr = [];
 
   arr.forEach((a) => {
-    let sum = a + 1;
-    newArr.push(sum);
+    // let sum = a + 1;
+    newArr.push(a + 1);
   });
 
   return newArr;
 };
 
-let newArray = addOne(arr);
-console.log(newArray);
+// let newArray = addOne(arr);
+// console.log(newArray);
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
@@ -30,21 +30,21 @@ Write a function named `addExclamation` that takes an array of strings, and retu
 
 Use `forEach` to loop over the input array. Modify each string, and add the updated value into a local array. Return the local array;
 ------------------------------------------------------------------------------------------------ */
-let strings = ['hi', 'how', 'are', 'you'];
+// let strings = ['hi', 'how', 'are', 'you'];
 
 const addExclamation = (arr) => {
   let newArr = [];
 
   arr.forEach((a) => {
-    let exclaimation = a + '!';
-    newArr.push(exclaimation);
+    // let exclaimation = a + '!';
+    newArr.push(a + '!');
   });
 
   return newArr;
 };
 
-let newStrings = addExclamation(strings);
-console.log(newStrings);
+// let newStrings = addExclamation(strings);
+// console.log(newStrings);
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 3
@@ -57,15 +57,15 @@ const allUpperCase = (arr) => {
   let uppercase = [];
 
   arr.forEach((a) => {
-    let caps = a.toUpperCase();
-    uppercase.push(caps);
+    // let caps = a.toUpperCase();
+    uppercase.push(a.toUpperCase());
   });
 
   return uppercase;
 };
 
-let allCaps = allUpperCase(strings);
-console.log(allCaps);
+// let allCaps = allUpperCase(strings);
+// console.log(allCaps);
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
